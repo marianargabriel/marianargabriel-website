@@ -11,7 +11,7 @@ export default function Footer() {
     return (
         <footer>
             <div className="container-fluid text-center">
-                <p className='text-slogan'>Living, learning & leveling up one day at a time.</p>
+                <p className='text-slogan'>Living, learning & leveling up<br/>one day at a time.</p>
                 <div className='social-media'>
                     <a className='link-media' href="https://github.com/marianargabriel" target="_blank">
                         <FontAwesomeIcon className='icon-media' icon={faGithub} />
@@ -27,7 +27,7 @@ export default function Footer() {
                     </a>
                 </div>
                 <div className='container-fluid copyright'>
-                    <p className='text'>Developed by <a className='text-linked' href='https://marianargabriel.pt'>Mariana Gabriel</a></p>
+                    <p>Developed by <a className='text-linked' href='https://marianargabriel.pt'>Mariana Gabriel</a></p>
                     <p>&copy; Mariana Gabriel - {new Date().getFullYear()}. All rights reserved.</p>
                 </div>
             </div>
