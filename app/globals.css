@@ -17,7 +17,6 @@ body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -34,3 +33,23 @@ a {
 }
 
 /* -------------- */
+
+.hero-title {
+  color: #262E33;
+  padding-bottom: 20px;
+  padding-top: 70px;
+}
+
+.hero-text {
+  margin-top: -10px;
+}
+
+.hero-avatar {
+  width: 580px !important;
+  height: 580px !important;
+  margin: 30px 0px;
+}
+
+main {
+  font-family: 'Montserrat', sans-serif;
+}
