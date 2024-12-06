@@ -34,17 +34,3 @@ a {
 }
 
 /* -------------- */
-
-
-.btn-talkToMe {
-  background-color: var(--pink-color);
-  color: var(--white-color);
-  border: none;
-  border-radius: 50px;
-  padding: 10px 20px;
-}
-
-#btn-talk:hover,
-#btn-talk:active {
-    background-color: var(--pink-color);
-}
