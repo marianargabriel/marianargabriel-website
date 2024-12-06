@@ -11,19 +11,19 @@ export default function Footer() {
     return (
         <footer>
             <div className="container-fluid text-center">
-                <p>Living, learning & leveling up one day at a time.</p>
+                <p className='text-slogan'>Living, learning & leveling up one day at a time.</p>
                 <div className='social-media'>
                     <a className='link-media' href="https://github.com/marianargabriel" target="_blank">
-                        <FontAwesomeIcon icon={faGithub} />
+                        <FontAwesomeIcon className='icon-media' icon={faGithub} />
                     </a>
                     <a className='link-media' href="https://www.instagram.com/marianargabriel" target='_blank'>
-                        <FontAwesomeIcon icon={faInstagram} />
+                        <FontAwesomeIcon className='icon-media' icon={faInstagram} />
                     </a>
                     <a className='link-media' href="https://www.linkedin.com/in/marianagabriel/" target="_blank">
-                        <FontAwesomeIcon icon={faLinkedinIn} />
+                        <FontAwesomeIcon className='icon-media' icon={faLinkedinIn} />
                     </a>
                     <a className='link-media' href="mailto:marianaramalhaogabriel@gmail.com" target='_blank'>
-                        <FontAwesomeIcon icon={faEnvelope} />
+                        <FontAwesomeIcon className='icon-media' icon={faEnvelope} />
                     </a>
                 </div>
                 <div className='container-fluid copyright'>
