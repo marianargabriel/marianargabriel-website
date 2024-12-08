@@ -133,7 +133,7 @@ export default function Home() {
                   className="card-img-top project-image pequena-ametista"
                   width={240}
                   height={100}
-                  layout="intrinsic"  // A propriedade layout ajuda a manter a proporção da imagem
+                  layout="intrinsic"
                 />
                 <div className="card-body mt-2">
                   <p className="card-text">
@@ -154,7 +154,7 @@ export default function Home() {
                   className="card-img-top project-image sou"
                   width={130}
                   height={70}
-                  layout="intrinsic"  // Ajusta automaticamente o layout mantendo a proporção
+                  layout="intrinsic"
                 />
                 <div className="card-body mt-2">
                   <p className="card-text">
