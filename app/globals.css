@@ -10,6 +10,7 @@
   --blue-purple-gradient: linear-gradient(135deg, #441e5b, #183463);
   --blue-color: #183463;
   --purple-color: #441e5b;
+  --blue-link-color: #1E365E;
 }
 
 html,
@@ -48,7 +49,12 @@ footer {
 .hero,
 .intro {
   padding: 150px 0px;
-  padding-bottom: 200px;
+}
+
+.companie-section,
+.work-section,
+.collaborations-section {
+  padding: 50px 0px;
 }
 
 
@@ -56,11 +62,8 @@ footer {
 
 
 .hero-title {
-  color: #262E33;
-}
-
-.hero-text {
-  margin-top: -10px;
+  margin-top: -80px;
+  color: var(--black-color);
 }
 
 .hero-avatar {
@@ -199,5 +202,133 @@ footer {
 }
 
 .btn-explore:hover::before {
+  transform: scaleX(1);
+}
+
+
+/* ------- WORK SECTION --------- */
+
+
+.work-email-link {
+  text-decoration: none;
+}
+
+.work-email-link:hover,
+.work-email-link:active {
+  color: var(--blue-link-color) !important;
+}
+
+.project-cards-container {
+  margin: 0px 150px 0px 150px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 15px;
+  height: 100%;
+}
+
+.card-img-top {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.sou {
+  max-height: 70px;
+  max-width: 130px;
+  height: auto;
+  width: auto;
+  object-fit: cover;
+}
+
+.pequena-ametista {
+  max-height: 100px;
+  max-width: 240px;
+  height: auto;
+  width: auto;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.project-type {
+  background-color: var(--grey-color);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  font-size: 14px;
+}
+
+.project-type-icon {
+  padding-right: 5px;
+}
+
+.project-type p {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* ------- COLLABORATIONS SECTION --------- */
+
+
+.collaborations-button {
+  background-color: var(--white-color);
+  color: var(--pink-color);
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: 1px solid var(--pink-color);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.collaborations-icon {
+  color: var(--pink-color);
+  padding-right: 5px;
+}
+
+.collaborations-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--pink-color);
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.5s ease;
+  z-index: -1;
+}
+
+.collaborations-button:active,
+.collaborations-button:hover {
+  color: var(--white-color) !important;
+  transform: translateY(-4px);
+  background-color: var(--white-color) !important;
+  border: 1px solid var(--pink-color) !important;
+}
+
+.collaborations-button:hover .collaborations-icon {
+  color: var(--white-color);
+  transform: translateY(-4px);
+}
+
+.collaborations-button:hover::before {
   transform: scaleX(1);
 }

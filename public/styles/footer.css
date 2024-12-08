@@ -5,11 +5,16 @@
     --black-color: #262E33;
     --dark-grey-color: #D2D2D2;
     --grey-color: #EDEDF0;
-  } */
+    --blue-purple-gradient: linear-gradient(135deg, #441e5b, #183463);
+    --blue-color: #183463;
+    --purple-color: #441e5b;
+    --blue-link-color: #1E365E;
+} */
 
 footer {
     background-color: var(--pink-color);
-    padding: 150px 0px 20px 0px;
+    padding: 100px 0px 20px 0px;
+    margin-top: 50px;
 }
 
 .text-slogan {

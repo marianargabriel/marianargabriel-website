@@ -1,3 +1,16 @@
+/* :root {
+    --white-color: #FFFFFF;
+    --pink-color: #FE02AA;
+    --soft-pink-color: #FFD5DC;
+    --black-color: #262E33;
+    --dark-grey-color: #D2D2D2;
+    --grey-color: #EDEDF0;
+    --blue-purple-gradient: linear-gradient(135deg, #441e5b, #183463);
+    --blue-color: #183463;
+    --purple-color: #441e5b;
+    --blue-link-color: #1E365E;
+} */
+
 .btn-talkToMe {
     background-color: var(--white-color);
     color: var(--pink-color);

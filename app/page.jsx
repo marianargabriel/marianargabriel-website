@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 
-import Head from 'next/head';
+import Image from 'next/image';
 
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
@@ -107,6 +107,82 @@ export default function Home() {
           <a href="https://globalmighty.pt" target="_blank" rel="noopener noreferrer">
             <button className="btn btn-primary btn-explore" type="button">
               Explore Our Work
+            </button>
+          </a>
+        </section>
+
+        <section className="work-section container-fluid text-center">
+          <h3 className="section-title"><b>My Recent Work</b></h3>
+          <p className="section-description">
+            Here are a few past design projects I've worked on. Want to see more?{' '}
+            <a
+              className="work-email-link"
+              href="mailto:gabrielrmariana@email.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <b>Email me</b>
+            </a>.
+          </p>
+          <div className="project-cards-container row row-cols-1 row-cols-md-2 g-4 mt-4">
+            <div className="col">
+              <div className="card h-100 pt-5 pb-5">
+                <Image
+                  src="/assets/projects/pequenaametista.png"
+                  alt="Pequena Ametista"
+                  className="card-img-top project-image pequena-ametista"
+                  width={240}
+                  height={100}
+                  layout="intrinsic"  // A propriedade layout ajuda a manter a proporção da imagem
+                />
+                <div className="card-body mt-2">
+                  <p className="card-text">
+                    A mobile application for the management of a<br />beauty center, developed in <b>React Native</b>.
+                  </p>
+                </div>
+                <div className="project-type">
+                  <i className="bi bi-screwdriver project-type-icon"></i>
+                  <p><b>prototyping</b></p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card h-100 pt-5 pb-5">
+                <Image
+                  src="/assets/projects/sou.png"
+                  alt="SOU"
+                  className="card-img-top project-image sou"
+                  width={130}
+                  height={70}
+                  layout="intrinsic"  // Ajusta automaticamente o layout mantendo a proporção
+                />
+                <div className="card-body mt-2">
+                  <p className="card-text">
+                    A mobile application for managing a real<br />estate agency, as part of the curriculum internship.
+                  </p>
+                </div>
+                <div className="project-type">
+                  <i className="bi bi-lightbulb project-type-icon"></i>
+                  <p><b>validating idea</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="collaborations-section container-fluid text-center">
+          <h3 className="section-title"><b>Interested in Collaborating with Me?</b></h3>
+          <p className="section-description">
+            I'm always available to provide my services or partnership opportunities.
+          </p>
+          <a
+            href="https://api.whatsapp.com/send?phone=351924306673"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button type="button" className="btn btn-primary collaborations-button">
+              <i className="bi bi-chat collaborations-icon"></i>
+              Start a Conversation
             </button>
           </a>
         </section>
