@@ -39,7 +39,7 @@ footer {
     padding: 10px;
     border-radius: 50%;
     border: 2px solid var(--soft-pink-color);
-    color: var(--white-color);
+    color: var(--soft-pink-color);
     transition: transform 0.3s ease;
 }
 
