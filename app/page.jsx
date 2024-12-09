@@ -24,7 +24,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="intro container-fluid text-center">
+        <section id='about' className="intro container-fluid text-center">
           <div className="col">
             <h2 className="intro-heading"><b>Hi, I'm Mariana. Nice to see you here!</b></h2>
             <p className="intro-text">
@@ -111,7 +111,7 @@ export default function Home() {
           </a>
         </section>
 
-        <section className="work-section container-fluid text-center">
+        <section id='portfolio' className="work-section container-fluid text-center">
           <h3 className="section-title"><b>My Recent Work</b></h3>
           <p className="section-description">
             Here are a few past design projects I've worked on. Want to see more?{' '}
