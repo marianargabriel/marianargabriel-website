@@ -117,7 +117,7 @@ export default function Home() {
             Here are a few past design projects I've worked on. Want to see more?{' '}
             <a
               className="work-email-link"
-              href="mailto:gabrielrmariana@email.com"
+              href="mailto:gabrielrmariana@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
