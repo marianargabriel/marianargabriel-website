@@ -22,7 +22,7 @@ export default function Footer() {
                     <a className='link-media' href="https://www.linkedin.com/in/marianagabriel/" target="_blank">
                         <FontAwesomeIcon className='icon-media' icon={faLinkedinIn} />
                     </a>
-                    <a className='link-media' href="mailto:marianaramalhaogabriel@gmail.com" target='_blank'>
+                    <a className='link-media' href="mailto:gabrielrmariana@gmail.com" target='_blank'>
                         <FontAwesomeIcon className='icon-media' icon={faEnvelope} />
                     </a>
                 </div>
