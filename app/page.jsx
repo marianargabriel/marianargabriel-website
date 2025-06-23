@@ -68,7 +68,7 @@ export default function Home() {
                 </div>
                 <div className="tool-secondary-content">
                   <h5 className="tool-subtitle">Technologies I master:</h5>
-                  <p>HTML, CSS, JS, C, C#, React Native, <br />React.js, Next.js, JAVA</p>
+                  <p>HTML, CSS, JS, C, C#, React Native, <br />React.js, Next.js, JAVA, Vue.js</p>
                 </div>
                 <div className="tool-tertiary-content">
                   <h5 className="tool-subtitle">Databases I used:</h5>
